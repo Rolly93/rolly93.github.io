@@ -1,0 +1,90 @@
+body ,ul ,li,html {
+    padding: 0;
+    margin: 0;
+    
+}
+
+header> nav>ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    color: azure;
+}
+header>nav>ul>li>a:hover{
+    
+  background-color: rgb(235, 198, 154);
+    border-radius: 5px;
+   transition: all 0.6s;
+   font-size: 1.16em;
+  
+    }
+header ,footer{
+    background:linear-gradient(to top , #5e3e02 , #f1a603);
+    overflow: auto;
+    height: 2.5em;
+}
+footer>ul>li>a{
+    height: 15px;
+background-size: contain;
+background-repeat: no-repeat;
+padding-left: 1.5em;
+
+
+ 
+}
+li.Fb a{
+    background-image: url("../imagen/fb.png");
+   
+}
+li.Inst a{
+    background-image: url("../imagen/insta.png");
+}
+li.Whats a{
+    background-image: url("../imagen/whatsapp.png");
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+   height: 1.5em;
+    
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+a:active{
+    color: white;
+}
+a:link{
+    color: azure;
+}
+a:visited{
+    color: blanchedalmond;
+}
+.button
+{
+    border:1px solid #ffebcd;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: normal;
+    background:linear-gradient(to top , #5e3e02 , #f1a603 );
+    color: #ffff;
+    padding: 0.2em 0.5em;
+    font-family: "Exp 2",Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 10px 10px;
+    user-select: none;
+    cursor: pointer;
+    background-color: #f1a603;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    transition: background 1s;
+
+}
+.button:hover{
+    background-position: 0 100px;
+    transition: background 1s;
+    
+}

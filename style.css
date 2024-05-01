@@ -30,9 +30,16 @@ footer>ul>li>a{
 background-size: contain;
 background-repeat: no-repeat;
 padding-left: 1.5em;
-
-
  
+}
+.Video-conteiner{
+    margin: 15px;
+    padding: 10px;
+    border:rgb(235, 198, 154) solid 3px;
+    display: flex;
+}
+#fir-video , #Sec-video{
+    padding: 10px;
 }
 li.Fb a{
     background-image: url("../imagen/fb.png");
